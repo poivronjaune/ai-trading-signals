@@ -1,0 +1,18 @@
+GROK:
+Ok please generate a new more specific one. Here are my ideas.
+-I have a CSV file with stock price data and multiple indicators.
+-wish to use a LightGBM model, using the PyPi library lightgbm
+-I want two parts to my app: training, then Predicting
+-The training part should produce Buy signal if during the next 15 candles price is going up significantly(ideally use the close price, nut the high might also be a good element to consider) I will target a risk management of 3:1
+-A new column should be added with a buy signal
+-One other column should added with StopLoss price that limits risk to 1% of trade
+-One other column should be added with TargetPrice to at least 3:1 ratio.
+-All trade signals once trained must not have a look ahaead bias.
+- Would also want to have a maximum time in position to no more that 2 days.
+
+The resulting analysis should produce a backtested file with buy and sell signals.
+If you need more details please ask me when ambiguity is present in my idea.
+
+In essence I wish to have an analysis that will produce a trading bot based on the lightGBM model to play with paper trading simulations like IBKR.
+
+GO
