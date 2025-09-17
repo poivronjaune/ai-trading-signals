@@ -1,6 +1,9 @@
 # Stock Trading Signal Generator
 This project is a Python-based command-line application that uses a LightGBM model to analyze historical stock price data and generate buy/sell signals for paper trading simulations. It processes a CSV file with stock prices and indicators, trains a model to predict buy signals, and produces a backtested output CSV with trade signals, stop-loss, and target prices.
-
+> [!WARNING]
+> This code **DOES NOT USE** Ai models when run. The code was generated using vibecoding techniques. 
+> Work in progress, not production ready.
+> 
 ## Installation
 You can install the package using pip. It's recommended to do this in a virtual environment.
 ```bash
